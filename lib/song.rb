@@ -18,6 +18,10 @@ class Song
     @@artists << artist
   end
   
+  def artists
+    @@artists
+  end
+  
   
   
   def self.genre
