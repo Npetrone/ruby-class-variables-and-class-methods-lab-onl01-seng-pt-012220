@@ -32,7 +32,7 @@ class Song
   
   def self.genre_count
     @@genre_count = {}
-    @@genre_count.group_by.each
+    @@genre_count.each
   end
   
   def self.artist_count
