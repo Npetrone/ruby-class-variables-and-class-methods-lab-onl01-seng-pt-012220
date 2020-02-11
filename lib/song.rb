@@ -13,7 +13,7 @@ class Song
     @@count
   end
   
-  def self.name
+  def name(name)
     @name = name
   end
   
